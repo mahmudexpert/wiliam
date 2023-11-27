@@ -395,11 +395,7 @@ color: var(--orange-txt);
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
   overflow: hidden;
 }
-.project_content img:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-  cursor: pointer;
-}
+
 #more {
   display: none;
 }
@@ -650,6 +646,9 @@ button {
   }
     .intro h1{
         font-size: 40px;
+    }
+    .accordion-header h5{
+     font-size: 18px;
     }
     .blog_img {
       width: 80%;
